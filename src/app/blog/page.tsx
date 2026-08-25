@@ -15,7 +15,7 @@ export default function BlogListPage() {
           <span className="text-xs font-mono font-bold tracking-widest text-brand-saffron uppercase">
             Opinion Pieces & Articles / विचार-पत्र
           </span>
-          <h1 className="font-hindi-alt text-4xl sm:text-5xl font-black">ब्लॉग व विचार-पत्र</h1>
+          <h1 className="font-hindi-alt text-4xl sm:text-5xl font-black text-black">ब्लॉग व विचार-पत्र</h1>
           <p className="text-sm sm:text-base text-slate-400 max-w-2xl mx-auto font-medium">
             संस्कृत शिक्षा, शैक्षणिक सुधार, डिजिटल मीडिया के प्रभाव और इंदौर विधानसभा क्षेत्र 5 की समस्याओं पर प्रेम चंद कौल के लेख।
           </p>
@@ -35,11 +35,11 @@ export default function BlogListPage() {
                     </span>
                     <span className="text-xs text-brand-primary/50 font-bold">{post.date}</span>
                   </div>
-                  
+
                   <h2 className="font-hindi-alt text-2xl font-black text-brand-primary">
                     {post.title}
                   </h2>
-                  
+
                   <p className="text-sm text-brand-primary/75 leading-relaxed font-semibold">
                     {post.excerpt}
                   </p>

@@ -80,7 +80,7 @@ export default function ContactPage() {
           <span className="text-xs font-mono font-bold tracking-widest text-brand-saffron uppercase">
             Get in Touch / संपर्क करें
           </span>
-          <h1 className="font-hindi-alt text-4xl sm:text-5xl font-black">हमसे संपर्क करें</h1>
+          <h1 className="font-hindi-alt text-4xl sm:text-5xl font-black text-black">हमसे संपर्क करें</h1>
           <p className="text-sm sm:text-base text-slate-400 max-w-2xl mx-auto font-medium">
             आपकी समस्याएं, सुझाव या अभियान में जनभागीदारी हेतु संदेश भेजें। डोरस्टेप गवर्नेंस हेल्पलाइन नंबर सदैव उपलब्ध है।
           </p>
@@ -90,13 +90,13 @@ export default function ContactPage() {
       {/* Forms & Contacts Grid */}
       <section className="section-padding bg-brand-bg">
         <div className="container-width grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-          
+
           {/* Left: Contact Info */}
           <div className="lg:col-span-5 space-y-6">
             <ScrollReveal direction="right">
               <div className="space-y-6">
                 <h2 className="font-hindi-alt text-2xl font-extrabold text-brand-primary">संपर्क जानकारी</h2>
-                
+
                 {/* Helpline */}
                 <div className="card-base glassmorphism p-5 flex items-start gap-4 hover:border-brand-saffron/40">
                   <PhoneIcon className="text-brand-saffron w-6 h-6 shrink-0 mt-1" />
@@ -161,7 +161,7 @@ export default function ContactPage() {
             <ScrollReveal direction="left">
               <div className="card-base glassmorphism p-6 md:p-8 space-y-6 shadow-xl">
                 <h2 className="font-hindi-alt text-2xl font-black text-brand-primary">संदेश या सुझाव भेजें</h2>
-                
+
                 {status === 'success' ? (
                   <div className="p-5 bg-green-500/10 border border-green-500/20 text-green-700 dark:text-green-400 rounded-xl space-y-3">
                     <h3 className="font-bold text-lg">Thank You / धन्यवाद!</h3>

@@ -113,7 +113,7 @@ export default function AboutPage() {
           <span className="text-xs font-mono font-bold tracking-widest text-brand-saffron uppercase">
             Biography & Experience / जीवन यात्रा
           </span>
-          <h1 className="font-hindi-alt text-4xl sm:text-5xl font-black text-brand-saffron">परिचय एवं कार्य अनुभव</h1>
+          <h1 className="font-hindi-alt text-4xl sm:text-5xl font-black text-black text-brand-saffron">परिचय एवं कार्य अनुभव</h1>
           <p className="text-sm sm:text-base text-slate-400 max-w-2xl mx-auto font-medium">
             प्रेम चंद कौल (Prem Chand Koul) — 9+ वर्षों के मीडिया प्रबंधन, वृत्तचित्र निर्देशन व जनसेवा के अनुभव के साथ इंदौर-5 के लिए समर्पित।
           </p>
@@ -123,7 +123,7 @@ export default function AboutPage() {
       {/* Main Bio Section */}
       <section className="section-padding bg-brand-bg">
         <div className="container-width grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-          
+
           {/* Left Column: Image Card */}
           <div className="lg:col-span-4 lg:sticky lg:top-28">
             <ScrollReveal direction="right">
@@ -195,7 +195,7 @@ export default function AboutPage() {
       {/* Education & Achievements Section */}
       <section className="section-padding bg-brand-bg/50 border-b border-brand-border border-t border-brand-border">
         <div className="container-width grid grid-cols-1 lg:grid-cols-2 gap-12">
-          
+
           {/* Education column */}
           <div className="space-y-6">
             <h3 className="font-hindi-alt text-2xl font-black text-brand-primary flex items-center gap-2">
@@ -266,7 +266,7 @@ export default function AboutPage() {
               Selected documentaries and Sanskrit short films select features.
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {VIDEOS.map((vid, idx) => (
               <ScrollReveal key={idx} delay={idx * 0.08}>

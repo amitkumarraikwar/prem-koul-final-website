@@ -72,7 +72,7 @@ export default function GrievancePage() {
           <span className="text-xs font-mono font-bold tracking-widest text-brand-saffron uppercase">
             Constituency Grievance Portal / जनसुनवाई शिकायत निवारण
           </span>
-          <h1 className="font-hindi-alt text-4xl sm:text-5xl font-black">{"\"आपकी समस्या, हमारी ज़िम्मेदारी\""}</h1>
+          <h1 className="font-hindi-alt text-4xl sm:text-5xl font-black text-black">{"\"आपकी समस्या, हमारी ज़िम्मेदारी\""}</h1>
           <p className="text-sm sm:text-base text-slate-400 max-w-2xl mx-auto font-medium">
             पानी, सड़क, बिजली, स्वास्थ्य या सुरक्षा संबंधी किसी भी समस्या की शिकायत यहाँ दर्ज करें। हमारी समर्पित वार्ड टीमें समाधान के लिए सक्रिय प्रयास करेंगी।
           </p>

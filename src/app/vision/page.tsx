@@ -89,7 +89,7 @@ export default function VisionPage() {
           <span className="text-xs font-mono font-bold tracking-widest text-brand-saffron uppercase">
             Campaign Vision & Mission / विज़न
           </span>
-          <h1 className="font-hindi-alt text-4xl sm:text-5xl font-black">{"\"डोरस्टेप गवर्नेंस\""} विज़न</h1>
+          <h1 className="font-hindi-alt text-4xl sm:text-5xl font-black text-black">{"\"डोरस्टेप गवर्नेंस\""} विज़न</h1>
           <p className="text-sm sm:text-base text-slate-400 max-w-2xl mx-auto font-medium">
             एक क्रांतिकारी प्रशासनिक और सेवा मॉडल, जो इंदौर विधानसभा 5 के नागरिकों को कार्यालयों के चक्कर काटने से मुक्त कर हर अधिकार उनके द्वार पर दिलाएगा।
           </p>

@@ -84,7 +84,7 @@ export default function GalleryPage() {
           <span className="text-xs font-mono font-bold tracking-widest text-brand-saffron uppercase">
             Visual Highlights / फोटो गैलरी
           </span>
-          <h1 className="font-hindi-alt text-4xl sm:text-5xl font-black">फोटो गैलरी / Gallery</h1>
+          <h1 className="font-hindi-alt text-4xl sm:text-5xl font-black text-black">फोटो गैलरी / Gallery</h1>
           <p className="text-sm sm:text-base text-slate-400 max-w-2xl mx-auto font-medium">
             जनसंपर्क अभियानों, फिल्म प्रीमियरों, शैक्षणिक कार्यशालाओं और वार्ड जनसुनवाई के प्रमुख क्षणों के चित्र।
           </p>
@@ -94,7 +94,7 @@ export default function GalleryPage() {
       {/* Gallery Section */}
       <section className="section-padding">
         <div className="container-width space-y-8">
-          
+
           {/* Category Filters */}
           <ScrollReveal>
             <div className="flex flex-wrap items-center justify-center gap-3">
@@ -102,11 +102,10 @@ export default function GalleryPage() {
                 <button
                   key={cat.value}
                   onClick={() => setActiveCategory(cat.value)}
-                  className={`text-xs md:text-sm font-bold px-4 py-2 rounded-full border transition-all cursor-pointer ${
-                    activeCategory === cat.value
+                  className={`text-xs md:text-sm font-bold px-4 py-2 rounded-full border transition-all cursor-pointer ${activeCategory === cat.value
                       ? 'bg-brand-saffron border-brand-saffron text-white shadow-md'
                       : 'border-brand-border bg-brand-card hover:border-brand-gold text-brand-primary'
-                  }`}
+                    }`}
                 >
                   {cat.label}
                 </button>
@@ -138,7 +137,7 @@ export default function GalleryPage() {
                   />
                   {/* Backdrop Gradient overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent opacity-80 group-hover:opacity-95 transition-opacity" />
-                  
+
                   {/* Caption */}
                   <div className="absolute bottom-4 left-4 right-4 space-y-1">
                     <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-brand-saffron">

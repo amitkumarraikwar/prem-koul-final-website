@@ -82,7 +82,7 @@ export default function VolunteerPage() {
           <span className="text-xs font-mono font-bold tracking-widest text-brand-saffron uppercase">
             Join the Movement / अभियान से जुड़ें
           </span>
-          <h1 className="font-hindi-alt text-4xl sm:text-5xl font-black">{"\"अभियान से जुड़ें, बदलाव लाएं\""}</h1>
+          <h1 className="font-hindi-alt text-4xl sm:text-5xl font-black text-black">{"\"अभियान से जुड़ें, बदलाव लाएं\""}</h1>
           <p className="text-sm sm:text-base text-slate-400 max-w-2xl mx-auto font-medium">
             डोरस्टेप गवर्नेंस विज़न को इंदौर-5 के प्रत्येक घर तक पहुँचाने के लिए हमारे साथ जुड़ें। आपकी छोटी सी सहभागिता बड़े बदलाव का आधार बन सकती है।
           </p>

@@ -43,7 +43,7 @@ function TeamMemberCard({ name, role, bio, photoUrl, isPlaceholder, socials }: T
             />
           )}
         </div>
-        
+
         {/* Text */}
         <div className="space-y-1">
           <h3 className={`font-hindi-alt text-lg font-extrabold ${isPlaceholder ? 'text-brand-primary/45 italic' : 'text-brand-primary'}`}>
@@ -128,7 +128,7 @@ export default function TeamPage() {
           <span className="text-xs font-mono font-bold tracking-widest text-brand-saffron uppercase">
             Our Team / हमारी टीम
           </span>
-          <h1 className="font-hindi-alt text-4xl sm:text-5xl font-black">हमारी टीम / Our Team</h1>
+          <h1 className="font-hindi-alt text-4xl sm:text-5xl font-black text-brand-saffron">हमारी टीम / Our Team</h1>
           <p className="text-sm sm:text-base text-slate-400 max-w-2xl mx-auto font-medium">
             इंदौर विधानसभा 5 के {"\"डोरस्टेप गवर्नेंस\""} अभियान को सफल बनाने में जुटे समर्पित कार्यकर्ता व तकनीकी विशेषज्ञ।
           </p>
