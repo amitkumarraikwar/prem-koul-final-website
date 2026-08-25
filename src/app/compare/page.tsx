@@ -407,19 +407,19 @@ export default function ComparePage() {
   return (
     <div className="flex-1 w-full flex flex-col">
       {/* Header Section */}
-      <section className="bg-brand-card text-brand-primary py-12 border-b border-brand-border relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-60 h-60 bg-brand-saffron/5 rounded-full blur-[90px] pointer-events-none" />
+      <section className="bg-slate-900 dark:bg-slate-950 text-white py-12 border-b border-brand-border relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-60 h-60 bg-amber-500/10 rounded-full blur-[90px] pointer-events-none" />
         <div className="container-width relative z-10 space-y-6">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-brand-border/60 pb-4">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-800 pb-4">
             <div>
-              <h1 className="font-hindi-alt text-2xl md:text-3xl font-extrabold text-brand-primary tracking-wide">
+              <h1 className="font-hindi-alt text-2xl md:text-3xl font-extrabold text-white tracking-wide">
                 इंदौर नेताओं का तुलनात्मक डेटा टेबल (MyNeta Data Table)
               </h1>
-              <p className="text-xs text-brand-primary/70 mt-1 font-semibold">
+              <p className="text-xs text-slate-300 mt-1 font-semibold">
                 शिक्षा, आपराधिक मामले, संस्थागत अनुभव एवं नागरिक सेवा मॉडल की सीधी तुलना
               </p>
             </div>
-            <span className="text-[11px] font-mono font-bold text-brand-primary/60 bg-brand-border/40 px-3 py-1.5 rounded-full border border-brand-border self-start sm:self-center">
+            <span className="text-[11px] font-mono font-bold text-amber-400 bg-slate-800/80 px-3 py-1.5 rounded-full border border-slate-700 self-start sm:self-center">
               Source: Election Commission Affidavits / MyNeta ADR
             </span>
           </div>

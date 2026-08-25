@@ -66,14 +66,14 @@ export default function GrievancePage() {
   return (
     <div className="flex-1 w-full flex flex-col bg-brand-bg">
       {/* Header */}
-      <section className="bg-brand-primary text-slate-100 py-20 border-b border-brand-border relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-60 h-60 bg-brand-saffron/5 rounded-full blur-[90px] pointer-events-none" />
+      <section className="bg-slate-900 dark:bg-slate-950 text-white py-16 sm:py-20 border-b border-brand-border relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-60 h-60 bg-amber-500/10 rounded-full blur-[90px] pointer-events-none" />
         <div className="container-width text-center space-y-4 relative z-10">
-          <span className="text-xs font-mono font-bold tracking-widest text-brand-saffron uppercase">
+          <span className="text-xs font-mono font-bold tracking-widest text-amber-400 uppercase">
             Constituency Grievance Portal / जनसुनवाई शिकायत निवारण
           </span>
-          <h1 className="font-hindi-alt text-4xl sm:text-5xl font-black">{"\"आपकी समस्या, हमारी ज़िम्मेदारी\""}</h1>
-          <p className="text-sm sm:text-base text-slate-400 max-w-2xl mx-auto font-medium">
+          <h1 className="font-hindi-alt text-4xl sm:text-5xl font-black text-white">{"\"आपकी समस्या, हमारी ज़िम्मेदारी\""}</h1>
+          <p className="text-sm sm:text-base text-slate-300 max-w-2xl mx-auto font-medium leading-relaxed">
             पानी, सड़क, बिजली, स्वास्थ्य या सुरक्षा संबंधी किसी भी समस्या की शिकायत यहाँ दर्ज करें। हमारी समर्पित वार्ड टीमें समाधान के लिए सक्रिय प्रयास करेंगी।
           </p>
         </div>
