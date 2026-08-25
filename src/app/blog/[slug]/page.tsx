@@ -25,13 +25,13 @@ export default async function BlogPostPage({ params }: PageProps) {
   return (
     <div className="flex-1 w-full bg-brand-bg pb-16">
       {/* Blog Details Header */}
-      <section className="bg-slate-900 dark:bg-slate-950 text-white py-16 border-b border-brand-border relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-60 h-60 bg-amber-500/10 rounded-full blur-[90px] pointer-events-none" />
+      <section className="bg-brand-primary text-slate-100 py-16 border-b border-brand-border relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-60 h-60 bg-brand-saffron/5 rounded-full blur-[90px] pointer-events-none" />
         <div className="container-width max-w-3xl space-y-6 relative z-10 text-left">
           
           <Link
             href="/blog"
-            className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-amber-400 hover:text-white transition-colors"
+            className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-brand-gold hover:text-white transition-colors"
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" /></svg>
             <span>वापस ब्लॉग पर जाएं</span>
@@ -39,10 +39,10 @@ export default async function BlogPostPage({ params }: PageProps) {
 
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <span className="text-xs font-bold text-amber-400 bg-amber-500/20 px-3 py-1 rounded-full border border-amber-500/30">
+              <span className="text-xs font-bold text-brand-saffron bg-brand-saffron/10 px-3 py-1 rounded-full border border-brand-saffron/20">
                 {post.category}
               </span>
-              <span className="text-xs text-slate-300 font-bold">{post.date}</span>
+              <span className="text-xs text-slate-400 font-bold">{post.date}</span>
             </div>
             <h1 className="font-hindi-alt text-3xl sm:text-4xl md:text-5xl font-black leading-tight text-white">
               {post.title}

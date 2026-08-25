@@ -78,14 +78,14 @@ export default function GalleryPage() {
   return (
     <div className="flex-1 w-full flex flex-col bg-brand-bg">
       {/* Header */}
-      <section className="bg-slate-900 dark:bg-slate-950 text-white py-16 sm:py-20 border-b border-brand-border relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-60 h-60 bg-amber-500/10 rounded-full blur-[90px] pointer-events-none" />
+      <section className="bg-brand-primary text-slate-100 py-20 border-b border-brand-border relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-60 h-60 bg-brand-saffron/5 rounded-full blur-[90px] pointer-events-none" />
         <div className="container-width text-center space-y-4 relative z-10">
-          <span className="text-xs font-mono font-bold tracking-widest text-amber-400 uppercase">
+          <span className="text-xs font-mono font-bold tracking-widest text-brand-saffron uppercase">
             Visual Highlights / फोटो गैलरी
           </span>
-          <h1 className="font-hindi-alt text-4xl sm:text-5xl font-black text-white">फोटो गैलरी / Gallery</h1>
-          <p className="text-sm sm:text-base text-slate-300 max-w-2xl mx-auto font-medium leading-relaxed">
+          <h1 className="font-hindi-alt text-4xl sm:text-5xl font-black">फोटो गैलरी / Gallery</h1>
+          <p className="text-sm sm:text-base text-slate-400 max-w-2xl mx-auto font-medium">
             जनसंपर्क अभियानों, फिल्म प्रीमियरों, शैक्षणिक कार्यशालाओं और वार्ड जनसुनवाई के प्रमुख क्षणों के चित्र।
           </p>
         </div>

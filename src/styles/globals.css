@@ -28,14 +28,14 @@
     transition-timing-function: inherit;
 }
 
-/* Minimal Grayscale & Saffron CSS Variable Design Tokens */
+/* Minimal Grayscale CSS Variable Design Tokens */
 :root {
   --background: #ffffff; /* Minimal crisp pure white */
   --foreground: #0f172a; /* Slate 900 */
   --card-bg: rgba(255, 255, 255, 0.95);
-  --border-color: rgba(15, 23, 42, 0.12); /* Minimal soft outline */
-  --accent-gold: #b45309; /* Warm Gold */
-  --accent-saffron: #d97706; /* Vibrant Saffron Amber */
+  --border-color: rgba(15, 23, 42, 0.08); /* Minimal soft outline */
+  --accent-gold: #64748b; /* Neutral gray/slate for highlights */
+  --accent-saffron: #0f172a; /* Clean solid slate for primary actions */
   --scrollbar-bg: #f8fafc;
 }
 
@@ -43,9 +43,9 @@
   --background: #090d16; /* Clean deep charcoal black */
   --foreground: #f8fafc; /* Slate 50 */
   --card-bg: rgba(17, 24, 39, 0.9);
-  --border-color: rgba(248, 250, 252, 0.12);
-  --accent-gold: #f59e0b;
-  --accent-saffron: #fbbf24;
+  --border-color: rgba(248, 250, 252, 0.08);
+  --accent-gold: #94a3b8;
+  --accent-saffron: #f8fafc;
   --scrollbar-bg: #0f172a;
 }
 
