@@ -79,6 +79,28 @@ export default function GrievancePage() {
         </div>
       </section>
 
+      {/* Bhagiratpura Water Crisis Warning Banner */}
+      <section className="bg-slate-900 text-white py-6 border-b border-rose-500/40">
+        <div className="container-width">
+          <div className="p-4 sm:p-5 rounded-2xl bg-rose-950/40 border border-rose-500/30 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+            <div className="space-y-1">
+              <span className="text-[11px] font-mono font-bold text-rose-400 uppercase tracking-wider">
+                🚨 Alert: Water Contamination Safety / शुद्ध जल सुरक्षा
+              </span>
+              <p className="text-sm font-bold text-slate-100">
+                भाग्यरतपुरा दूषित पानी जैसी गंभीर त्रासदियों से बचाव हेतु - अपने वार्ड में गंदे/सीवर युक्त पानी या लीकेज की शिकायत तुरंत दर्ज कराएं।
+              </p>
+            </div>
+            <a
+              href="/blog/indore-bhagiratpura-water-tragedy-and-civic-accountability"
+              className="shrink-0 text-xs font-extrabold text-brand-saffron hover:underline bg-brand-saffron/10 px-3.5 py-2 rounded-xl border border-brand-saffron/30"
+            >
+              भाग्यरतपुरा रिपोर्ट पढ़ें →
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Form Area */}
       <section className="section-padding">
         <div className="container-width max-w-2xl">

@@ -96,6 +96,25 @@ export default function VisionPage() {
         </div>
       </section>
 
+      {/* Campaign Motive Feature Banner */}
+      <section className="bg-slate-900 text-white py-10 border-b border-brand-border/60">
+        <div className="container-width">
+          <ScrollReveal>
+            <div className="max-w-4xl mx-auto p-6 sm:p-8 rounded-3xl bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950 border border-brand-saffron/40 shadow-xl space-y-4 text-center">
+              <span className="inline-block px-3.5 py-1 rounded-full bg-brand-saffron/20 border border-brand-saffron/40 text-brand-saffron text-xs font-extrabold uppercase tracking-widest font-mono">
+                🎯 Core Campaign Motive / मुख्य ध्येय
+              </span>
+              <h2 className="font-hindi-alt text-2xl sm:text-3xl font-extrabold text-amber-400">
+                {"\"Reach with People → Convert to vote, main output\""}
+              </h2>
+              <p className="text-sm sm:text-base text-slate-300 font-medium max-w-2xl mx-auto leading-relaxed">
+                जन-जन तक सघन एवं पारदर्शी पहुँच स्थापित करना और प्रत्येक व्यक्तिगत संवाद को निर्णायक जनादेश (Vote) में बदलना ही इस अभियान का मुख्य ध्येय एवं आउटपुट है।
+              </p>
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
       {/* Resolves Section */}
       <section className="section-padding bg-brand-bg">
         <div className="container-width space-y-12">

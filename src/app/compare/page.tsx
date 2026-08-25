@@ -29,10 +29,11 @@ interface CandidateRow {
 }
 
 const COMPARISON_ROWS: CandidateRow[] = [
+  // --- INDORE-5 (208) ---
   {
     name: 'प्रेम चंद कौल (Prem Chand Koul)',
     badge: 'विज़नरी प्रणेता',
-    constituency: 'इंदौर विधानसभा 5',
+    constituency: 'इंदौर विधानसभा 5 (208)',
     party: 'निर्दलीय / जनसेवक विज़न',
     education: 'MJMC स्नातकोत्तर (DAVV) + IGNCA फिल्म डिप्लोमा',
     cases: '0 (100% साफ़ निष्कलंक रिकॉर्ड)',
@@ -44,7 +45,7 @@ const COMPARISON_ROWS: CandidateRow[] = [
   },
   {
     name: 'महेन्द्र हार्डिया (Mahendra Hardia)',
-    constituency: 'इंदौर विधानसभा 5 (वर्तमान विधायक)',
+    constituency: 'इंदौर विधानसभा 5 (208) (वर्तमान विधायक)',
     party: 'भारतीय जनता पार्टी (BJP)',
     education: 'पोस्ट ग्रेजुएट (M.Sc.)',
     cases: '0 (शून्य)',
@@ -55,7 +56,7 @@ const COMPARISON_ROWS: CandidateRow[] = [
   },
   {
     name: 'सत्यनारायण पटेल (Satyanarayan Patel)',
-    constituency: 'इंदौर विधानसभा 5 (पूर्व प्रत्याशी)',
+    constituency: 'इंदौर विधानसभा 5 (208) (पूर्व प्रत्याशी)',
     party: 'भारतीय राष्ट्रीय कांग्रेस (INC)',
     education: '12वीं पास',
     cases: '8 (गंभीर आपराधिक मामले दर्ज)',
@@ -64,9 +65,35 @@ const COMPARISON_ROWS: CandidateRow[] = [
     experience: 'पूर्व विधायक व कृषि/उद्योग व्यवसाय',
     serviceModel: 'पारंपरिक राजनीतिक जनसंपर्क'
   },
+
+  // --- DEPALPUR (203) ---
+  {
+    name: 'मनोज पटेल (Manoj Patel)',
+    constituency: 'देपालपुर (203) (विधायक)',
+    party: 'भारतीय जनता पार्टी (BJP)',
+    education: 'स्नातक (Graduate)',
+    cases: '0 (शून्य)',
+    casesStatus: 'clean',
+    verified: true,
+    experience: 'विधायक (देपालपुर) व भाजपा नेता',
+    serviceModel: 'पारंपरिक ग्रामीण जनसंपर्क'
+  },
+  {
+    name: 'विशाल जगदीश पटेल (Vishal Jagdish Patel)',
+    constituency: 'देपालपुर (203) (पूर्व विधायक)',
+    party: 'भारतीय राष्ट्रीय कांग्रेस (INC)',
+    education: 'स्नातक (Graduate)',
+    cases: '1 (दर्ज मामला)',
+    casesStatus: 'warning',
+    verified: true,
+    experience: 'पूर्व विधायक (देपालपुर) व कृषि/उद्योगपति',
+    serviceModel: 'स्थानीय कृषि व व्यापार मंडल'
+  },
+
+  // --- INDORE-1 (204) ---
   {
     name: 'कैलाश विजयवर्गीय (Kailash Vijayvargiya)',
-    constituency: 'इंदौर विधानसभा 1 (कैबिनेट मंत्री)',
+    constituency: 'इंदौर विधानसभा 1 (204) (कैबिनेट मंत्री)',
     party: 'भारतीय जनता पार्टी (BJP)',
     education: 'एल.एल.बी. (LLB)',
     cases: '0 (शून्य)',
@@ -77,8 +104,8 @@ const COMPARISON_ROWS: CandidateRow[] = [
   },
   {
     name: 'संजय शुक्ला (Sanjay Shukla)',
-    constituency: 'इंदौर विधानसभा 1 (पूर्व प्रत्याशी)',
-    party: 'भाजपा / पूर्व कांग्रेस (BJP/INC)',
+    constituency: 'इंदौर विधानसभा 1 (204) (पूर्व प्रत्याशी)',
+    party: 'भारतीय राष्ट्रीय कांग्रेस / भाजपा (INC/BJP)',
     education: '12वीं पास',
     cases: '4+ (आपराधिक मामले दर्ज)',
     casesStatus: 'warning',
@@ -87,8 +114,21 @@ const COMPARISON_ROWS: CandidateRow[] = [
     serviceModel: 'पारंपरिक जनसंपर्क व धार्मिक आयोजन'
   },
   {
+    name: 'अनुराग यादव (Deepu Bhaiya)',
+    constituency: 'इंदौर विधानसभा 1 (204) (आप प्रत्याशी)',
+    party: 'आम आदमी पार्टी (AAP)',
+    education: 'स्नातक (Graduate)',
+    cases: '1 (दर्ज प्रकरण)',
+    casesStatus: 'warning',
+    verified: true,
+    experience: 'आप इंदौर-1 प्रत्याशी व युवा कार्यकर्ता',
+    serviceModel: 'आप जन सेवा व वालंटियर मॉडल'
+  },
+
+  // --- INDORE-2 (205) ---
+  {
     name: 'रमेश मेंदोला (Ramesh Mendola)',
-    constituency: 'इंदौर विधानसभा 2 (विधायक)',
+    constituency: 'इंदौर विधानसभा 2 (205) (विधायक)',
     party: 'भारतीय जनता पार्टी (BJP)',
     education: 'स्नातक (Graduate)',
     cases: '0 (शून्य)',
@@ -98,8 +138,21 @@ const COMPARISON_ROWS: CandidateRow[] = [
     serviceModel: 'स्थानीय धार्मिक/सांस्कृतिक उत्सव आयोजन'
   },
   {
-    name: 'राकेश शुक्ला (गोलू शुक्ला)',
-    constituency: 'इंदौर विधानसभा 3 (विधायक)',
+    name: 'चिंतामणि चौकसे चिंटू (Chintamani Chaukse Chintu)',
+    constituency: 'इंदौर विधानसभा 2 (205) (नेता प्रतिपक्ष नगर निगम)',
+    party: 'भारतीय राष्ट्रीय कांग्रेस (INC)',
+    education: '12वीं पास',
+    cases: '7 (आपराधिक मामले दर्ज)',
+    casesStatus: 'warning',
+    verified: true,
+    experience: 'नेता प्रतिपक्ष इंदौर नगर निगम व कांग्रेस संगठन',
+    serviceModel: 'नगर निगम विपक्ष व क्षेत्र जनसंपर्क'
+  },
+
+  // --- INDORE-3 (206) ---
+  {
+    name: 'राकेश गोलू शुक्ला (Rakesh Golu Shukla)',
+    constituency: 'इंदौर विधानसभा 3 (206) (विधायक)',
     party: 'भारतीय जनता पार्टी (BJP)',
     education: '12वीं पास',
     cases: '2 (दर्ज मामले)',
@@ -109,8 +162,8 @@ const COMPARISON_ROWS: CandidateRow[] = [
     serviceModel: 'पारंपरिक युवा नेटवर्क व्यवस्था'
   },
   {
-    name: 'दीपक जोशी (पिंटू जोशी)',
-    constituency: 'इंदौर विधानसभा 3 (प्रत्याशी)',
+    name: 'दीपक पिंटू जोशी (Deepak Pintu Joshi)',
+    constituency: 'इंदौर विधानसभा 3 (206) (प्रत्याशी)',
     party: 'भारतीय राष्ट्रीय कांग्रेस (INC)',
     education: 'पोस्ट ग्रेजुएट',
     cases: '1 (दर्ज मामला)',
@@ -119,9 +172,11 @@ const COMPARISON_ROWS: CandidateRow[] = [
     experience: 'कांग्रेस युवा संगठन व जनसंपर्क',
     serviceModel: 'विपक्षी जनसंपर्क अभियान'
   },
+
+  // --- INDORE-4 (207) ---
   {
     name: 'मालिनी गौड़ (Malini Gaur)',
-    constituency: 'इंदौर विधानसभा 4 (विधायक)',
+    constituency: 'इंदौर विधानसभा 4 (207) (विधायक)',
     party: 'भारतीय जनता पार्टी (BJP)',
     education: 'स्नातक (Graduate)',
     cases: '0 (शून्य)',
@@ -131,8 +186,8 @@ const COMPARISON_ROWS: CandidateRow[] = [
     serviceModel: 'पारंपरिक नगर निगम व विधायक कार्यालय'
   },
   {
-    name: 'राजा मधवानी (Raja Mandwani)',
-    constituency: 'इंदौर विधानसभा 4 (प्रत्याशी)',
+    name: 'राजा मधवानी (Raja Mandhwani / P L Raja)',
+    constituency: 'इंदौर विधानसभा 4 (207) (प्रत्याशी)',
     party: 'भारतीय राष्ट्रीय कांग्रेस (INC)',
     education: 'स्नातक (Graduate)',
     cases: '0 (शून्य)',
@@ -142,118 +197,21 @@ const COMPARISON_ROWS: CandidateRow[] = [
     serviceModel: 'पारंपरिक व्यापारी नेटवर्क'
   },
   {
-    name: 'जीतू पटवारी (Jitu Patwari)',
-    constituency: 'राऊ (पूर्व विधायक व प्रदेशाध्यक्ष)',
-    party: 'भारतीय राष्ट्रीय कांग्रेस (INC)',
-    education: 'स्नातक / LLB',
-    cases: '11+ (आपराधिक व दर्ज प्रकरण)',
-    casesStatus: 'warning',
-    verified: true,
-    experience: 'पूर्व मंत्री व कांग्रेस प्रदेशाध्यक्ष',
-    serviceModel: 'विपक्षीय आंदोलन व संगठन नेतृत्व'
-  },
-  {
-    name: 'मधु वर्मा (Madhu Verma)',
-    constituency: 'राऊ (विधायक)',
-    party: 'भारतीय जनता पार्टी (BJP)',
-    education: '10वीं पास',
-    cases: '0 (शून्य)',
-    casesStatus: 'clean',
-    verified: true,
-    experience: 'पूर्व IDA अध्यक्ष व विधायक',
-    serviceModel: 'प्राधिकरण व पारंपरिक जनसंपर्क'
-  },
-  {
-    name: 'तुलसीराम सिलावट (Tulsiram Silawat)',
-    constituency: 'सांवेर (कैबिनेट मंत्री)',
-    party: 'भारतीय जनता पार्टी (BJP)',
-    education: 'पोस्ट ग्रेजुएट (M.A.)',
-    cases: '0 (शून्य)',
-    casesStatus: 'clean',
-    verified: true,
-    experience: 'जल संसाधन कैबिनेट मंत्री व बहु-अवधि विधायक',
-    serviceModel: 'मंत्रालयीन प्रशासन व पारंपरिक राजनीति'
-  },
-  {
-    name: 'रीना बोरासी सेतिया (Reena Borasi Setiya)',
-    constituency: 'सांवेर (प्रत्याशी)',
-    party: 'भारतीय राष्ट्रीय कांग्रेस (INC)',
-    education: 'पोस्ट ग्रेजुएट',
-    cases: '0 (शून्य)',
-    casesStatus: 'clean',
-    verified: true,
-    experience: 'जिला पंचायत सदस्य व संगठन कार्य',
-    serviceModel: 'ग्रामीण व युवा जनसंपर्क'
-  },
-  {
-    name: 'विशाल पटेल (Vishal Patel)',
-    constituency: 'देपालपुर (पूर्व विधायक)',
-    party: 'भारतीय राष्ट्रीय कांग्रेस (INC)',
-    education: 'स्नातक (Graduate)',
-    cases: '1 (दर्ज मामला)',
-    casesStatus: 'warning',
-    verified: true,
-    experience: 'पूर्व विधायक व कृषि/उद्योगपति',
-    serviceModel: 'स्थानीय कृषि व व्यापार मंडल'
-  },
-  {
-    name: 'मनोज पटेल (Manoj Patel)',
-    constituency: 'देपालपुर (विधायक)',
-    party: 'भारतीय जनता पार्टी (BJP)',
-    education: 'स्नातक (Graduate)',
-    cases: '0 (शून्य)',
-    casesStatus: 'clean',
-    verified: true,
-    experience: 'पूर्व विधायक व भाजपा नेता',
-    serviceModel: 'पारंपरिक ग्रामीण जनसंपर्क'
-  },
-  {
-    name: 'आकाश विजयवर्गीय (Akash Vijayvargiya)',
-    constituency: 'इंदौर-3 (पूर्व विधायक)',
-    party: 'भारतीय जनता पार्टी (BJP)',
-    education: 'पोस्ट ग्रेजुएट (M.S. USA)',
+    name: 'डॉ. पीयूष जोशी (Dr. Piyush Joshi)',
+    constituency: 'इंदौर विधानसभा 4 (207) (आप प्रत्याशी)',
+    party: 'आम आदमी पार्टी (AAP)',
+    education: 'Graduate Professional (BDS)',
     cases: '1 (दर्ज प्रकरण)',
     casesStatus: 'warning',
     verified: true,
-    experience: 'पूर्व विधायक व युवा मोर्चा नेता',
-    serviceModel: 'युवा मोर्चा व पारंपरिक जनसंपर्क'
+    experience: 'चिकित्सक व आम आदमी पार्टी जन सेवा',
+    serviceModel: 'स्वास्थ्य सेवा व आप वालंटियर मॉडल'
   },
-  {
-    name: 'अंतर सिंह दरबार (Antar Singh Darbar)',
-    constituency: 'मऊ (पूर्व विधायक)',
-    party: 'निर्दलीय / पूर्व कांग्रेस (IND)',
-    education: 'स्नातक (Graduate)',
-    cases: '1 (दर्ज मामला)',
-    casesStatus: 'warning',
-    verified: true,
-    experience: 'पूर्व विधायक (मऊ) व वरिष्ठ आदिवासी नेता',
-    serviceModel: 'जनजातीय व क्षेत्रीय जनसंपर्क'
-  },
-  {
-    name: 'अभय जैन (Abhay Jain)',
-    constituency: 'इंदौर (प्रत्याशी)',
-    party: 'निर्दलीय (IND)',
-    education: 'Graduate Professional',
-    cases: '0 (शून्य)',
-    casesStatus: 'clean',
-    verified: true,
-    experience: '60 वर्ष, समाज सेवा व निर्दलीय जन अभियान',
-    serviceModel: 'स्वैच्छिक नागरिक अभियान'
-  },
-  {
-    name: 'चिंटू चौकसे (Chintu Choukse)',
-    constituency: 'इंदौर विधानसभा 2 (नेता प्रतिपक्ष नगर निगम)',
-    party: 'भारतीय राष्ट्रीय कांग्रेस (INC)',
-    education: '12वीं पास',
-    cases: '7 (आपराधिक मामले दर्ज)',
-    casesStatus: 'warning',
-    verified: true,
-    experience: 'नेता प्रतिपक्ष इंदौर नगर निगम व कांग्रेस संगठन',
-    serviceModel: 'नगर निगम विपक्ष व क्षेत्र जनसंपर्क'
-  },
+
+  // --- DR. AMBEDKAR NAGAR - MHOW (209) ---
   {
     name: 'उषा ठाकुर (Usha Thakur)',
-    constituency: 'महू / इंदौर (पूर्व कैबिनेट मंत्री)',
+    constituency: 'डॉ. अम्बेडकर नगर - महू (209) (पूर्व मंत्री)',
     party: 'भारतीय जनता पार्टी (BJP)',
     education: 'पोस्ट ग्रेजुएट (M.A. इतिहास)',
     cases: '0 (शून्य)',
@@ -263,19 +221,8 @@ const COMPARISON_ROWS: CandidateRow[] = [
     serviceModel: 'संस्कृति, धार्मिक व पारंपरिक विधायक मॉडल'
   },
   {
-    name: 'डॉ. पीयूष जोशी (Dr. Piyush Joshi)',
-    constituency: 'इंदौर विधानसभा 3 (प्रत्याशी)',
-    party: 'आम आदमी पार्टी (AAP)',
-    education: 'Graduate Professional (BDS)',
-    cases: '1 (दर्ज प्रकरण)',
-    casesStatus: 'warning',
-    verified: true,
-    experience: 'चिकित्सक व आम आदमी पार्टी जन सेवा',
-    serviceModel: 'स्वास्थ्य सेवा व आप वालंटियर मॉडल'
-  },
-  {
-    name: 'राम किशोर शुक्ला (Ram Kishor Shukla)',
-    constituency: 'महू (प्रत्याशी)',
+    name: 'राम किशोर शुक्ला (Ramkishor Shukla)',
+    constituency: 'डॉ. अम्बेडकर नगर - महू (209) (प्रत्याशी)',
     party: 'भारतीय राष्ट्रीय कांग्रेस (INC)',
     education: 'पोस्ट ग्रेजुएट',
     cases: '0 (शून्य)',
@@ -284,9 +231,94 @@ const COMPARISON_ROWS: CandidateRow[] = [
     experience: 'वरिष्ठ कांग्रेस नेता व स्थानीय जनसेवक',
     serviceModel: 'ग्रामीण व क्षेत्रीय जनसंपर्क'
   },
+
+  // --- RAU (210) ---
+  {
+    name: 'मधु वर्मा (Madhu Verma)',
+    constituency: 'राऊ (210) (विधायक)',
+    party: 'भारतीय जनता पार्टी (BJP)',
+    education: '10वीं पास',
+    cases: '0 (शून्य)',
+    casesStatus: 'clean',
+    verified: true,
+    experience: 'पूर्व IDA अध्यक्ष व विधायक',
+    serviceModel: 'प्राधिकरण व पारंपरिक जनसंपर्क'
+  },
+  {
+    name: 'जीतू पटवारी (Jitu Patwari)',
+    constituency: 'राऊ (210) (पूर्व विधायक व प्रदेशाध्यक्ष)',
+    party: 'भारतीय राष्ट्रीय कांग्रेस (INC)',
+    education: 'स्नातक / LLB',
+    cases: '11+ (आपराधिक व दर्ज प्रकरण)',
+    casesStatus: 'warning',
+    verified: true,
+    experience: 'पूर्व मंत्री व कांग्रेस प्रदेशाध्यक्ष',
+    serviceModel: 'विपक्षीय आंदोलन व संगठन नेतृत्व'
+  },
+
+  // --- SANWER (211) ---
+  {
+    name: 'तुलसीराम सिलावट (Tulsi Silawat)',
+    constituency: 'सांवेर (211) (कैबिनेट मंत्री)',
+    party: 'भारतीय जनता पार्टी (BJP)',
+    education: 'पोस्ट ग्रेजुएट (M.A.)',
+    cases: '0 (शून्य)',
+    casesStatus: 'clean',
+    verified: true,
+    experience: 'जल संसाधन कैबिनेट मंत्री व बहु-अवधि विधायक',
+    serviceModel: 'मंत्रालयीन प्रशासन व पारंपरिक राजनीति'
+  },
+  {
+    name: 'रीना बोरासी सेतिया (Reena Baurasi Setiya)',
+    constituency: 'सांवेर (211) (प्रत्याशी)',
+    party: 'भारतीय राष्ट्रीय कांग्रेस (INC)',
+    education: 'पोस्ट ग्रेजुएट',
+    cases: '0 (शून्य)',
+    casesStatus: 'clean',
+    verified: true,
+    experience: 'जिला पंचायत सदस्य व संगठन कार्य',
+    serviceModel: 'ग्रामीण व युवा जनसंपर्क'
+  },
+
+  // --- AGAR (166) ---
+  {
+    name: 'विपिन वानखेड़े (Vipin Wankhede)',
+    constituency: 'आगर SC (166) (पूर्व विधायक)',
+    party: 'भारतीय राष्ट्रीय कांग्रेस (INC)',
+    education: 'स्नातक (B.Com DAVV Indore / Christian Eminent)',
+    cases: '10 (आपराधिक मामले दर्ज)',
+    casesStatus: 'warning',
+    verified: true,
+    experience: 'पूर्व विधायक (आगर) व छात्र/युवा कांग्रेस नेता',
+    serviceModel: 'क्षेत्रीय राजनीतिक आंदोलन'
+  },
+
+  // --- OTHER INDEPENDENTS / CANDIDATES ---
+  {
+    name: 'अभय जैन (Abhay Jain)',
+    constituency: 'इंदौर विधानसभा 1 (204) (प्रत्याशी)',
+    party: 'निर्दलीय (IND)',
+    education: 'Graduate Professional',
+    cases: '0 (शून्य)',
+    casesStatus: 'clean',
+    verified: true,
+    experience: '60 वर्ष, समाज सेवा व निर्दलीय जन अभियान',
+    serviceModel: 'स्वैच्छिक नागरिक अभियान'
+  },
+  {
+    name: 'अंतर सिंह दरबार (Antar Singh Darbar)',
+    constituency: 'डॉ. अम्बेडकर नगर - महू (209) (पूर्व विधायक)',
+    party: 'निर्दलीय / पूर्व कांग्रेस (IND)',
+    education: 'स्नातक (Graduate)',
+    cases: '1 (दर्ज मामला)',
+    casesStatus: 'warning',
+    verified: true,
+    experience: 'पूर्व विधायक (महू) व वरिष्ठ आदिवासी नेता',
+    serviceModel: 'जनजातीय व क्षेत्रीय जनसंपर्क'
+  },
   {
     name: 'प्रमोद नामदेव (Pramod Namdev)',
-    constituency: 'इंदौर (प्रत्याशी)',
+    constituency: 'इंदौर विधानसभा 2 (205) (प्रत्याशी)',
     party: 'SUCI(C)',
     education: 'पोस्ट ग्रेजुएट',
     cases: '0 (शून्य)',
@@ -297,7 +329,7 @@ const COMPARISON_ROWS: CandidateRow[] = [
   },
   {
     name: 'यासिर पठान (Yasir Pathan)',
-    constituency: 'इंदौर (प्रत्याशी)',
+    constituency: 'इंदौर विधानसभा 1 (204) (प्रत्याशी)',
     party: 'AIMIM',
     education: 'स्नातक (Graduate)',
     cases: '2 (दर्ज मामले)',
@@ -305,34 +337,28 @@ const COMPARISON_ROWS: CandidateRow[] = [
     verified: true,
     experience: 'अल्पसंख्यक अधिकार व एमआईएम संगठन',
     serviceModel: 'क्षेत्रीय अल्पसंख्यक जनसंपर्क'
-  },
-  {
-    name: 'विकास यादव (Vickas Yadav)',
-    constituency: 'इंदौर (प्रत्याशी)',
-    party: 'जनता कांग्रेस',
-    education: '10वीं पास',
-    cases: '1 (दर्ज मामला)',
-    casesStatus: 'warning',
-    verified: true,
-    experience: 'युवा समाज सेवा व स्थानीय राजनीति',
-    serviceModel: 'युवा जन मंच'
   }
 ];
 
 const CONSTITUENCIES = [
   { id: 'All', label: 'All / सभी' },
-  { id: 'Indore-5', label: 'Indore-5' },
-  { id: 'Indore-1', label: 'Indore-1' },
-  { id: 'Indore-2', label: 'Indore-2' },
-  { id: 'Indore-3', label: 'Indore-3' },
-  { id: 'Indore-4', label: 'Indore-4' },
-  { id: 'Rau', label: 'Rau / राऊ' },
-  { id: 'Sanwer', label: 'Sanwer / सांवेर' },
-  { id: 'Depalpur', label: 'Depalpur / देपालपुर' },
-  { id: 'Mhow', label: 'Mhow / महू' }
+  { id: 'Indore-5', label: 'Indore-5 (208)' },
+  { id: 'Indore-1', label: 'Indore-1 (204)' },
+  { id: 'Indore-2', label: 'Indore-2 (205)' },
+  { id: 'Indore-3', label: 'Indore-3 (206)' },
+  { id: 'Indore-4', label: 'Indore-4 (207)' },
+  { id: 'Rau', label: 'Rau / राऊ (210)' },
+  { id: 'Sanwer', label: 'Sanwer / सांवेर (211)' },
+  { id: 'Depalpur', label: 'Depalpur / देपालपुर (203)' },
+  { id: 'Mhow', label: 'Mhow / महू (209)' },
+  { id: 'Agar', label: 'Agar / आगर (166)' }
 ];
 
 const FAQS = [
+  {
+    q: 'क्या हम हमेशा सिर्फ दो विकल्पों (भाजपा/कांग्रेस) तक सीमित रहें?',
+    a: 'नहीं। स्वस्थ लोकतंत्र का मूल सिद्धांत है कि मतदाता पार्टी चिन्ह या जातीय ध्रुवीकरण के स्थान पर उम्मीदवार की व्यक्तिगत योग्यता, ट्रैक रिकॉर्ड और ईमानदारी पर विचार करे। मतदाता को निर्दलीय व अन्य विकल्पों की भी निष्पक्ष तुलना कर, मूलभूत सुविधाओं (सड़क, शुद्ध जल, स्वास्थ्य, शिक्षा) पर समयबद्ध लिखित जवाबदेही माँगनी चाहिए।'
+  },
   {
     q: 'इस तुलनात्मक डेटा टेबल का मुख्य उद्देश्य क्या है?',
     a: 'इसका मुख्य उद्देश्य इंदौर संभाग के विभिन्न विधानसभा क्षेत्रों के प्रत्याशियों के शैक्षणिक योग्यता, आपराधिक रिकॉर्ड एवं उनके नागरिक सेवा दृष्टिकोण की स्पष्ट, पारदर्शी व तथ्यात्मक तुलना करना है, जिससे जागरूक मतदान को बढ़ावा मिले।'
@@ -360,15 +386,16 @@ export default function ComparePage() {
       row.constituency.toLowerCase().includes(searchQuery.toLowerCase());
 
     if (selectedConstituency === 'All') return matchesSearch;
-    if (selectedConstituency === 'Indore-5') return matchesSearch && row.constituency.includes('विधानसभा 5');
-    if (selectedConstituency === 'Indore-1') return matchesSearch && row.constituency.includes('विधानसभा 1');
-    if (selectedConstituency === 'Indore-2') return matchesSearch && row.constituency.includes('विधानसभा 2');
-    if (selectedConstituency === 'Indore-3') return matchesSearch && row.constituency.includes('विधानसभा 3');
-    if (selectedConstituency === 'Indore-4') return matchesSearch && row.constituency.includes('विधानसभा 4');
-    if (selectedConstituency === 'Rau') return matchesSearch && row.constituency.includes('राऊ');
-    if (selectedConstituency === 'Sanwer') return matchesSearch && row.constituency.includes('सांवेर');
-    if (selectedConstituency === 'Depalpur') return matchesSearch && row.constituency.includes('देपालपुर');
-    if (selectedConstituency === 'Mhow') return matchesSearch && (row.constituency.includes('महू') || row.constituency.includes('मऊ'));
+    if (selectedConstituency === 'Indore-5') return matchesSearch && (row.constituency.includes('विधानसभा 5') || row.constituency.includes('208'));
+    if (selectedConstituency === 'Indore-1') return matchesSearch && (row.constituency.includes('विधानसभा 1') || row.constituency.includes('204'));
+    if (selectedConstituency === 'Indore-2') return matchesSearch && (row.constituency.includes('विधानसभा 2') || row.constituency.includes('205'));
+    if (selectedConstituency === 'Indore-3') return matchesSearch && (row.constituency.includes('विधानसभा 3') || row.constituency.includes('206'));
+    if (selectedConstituency === 'Indore-4') return matchesSearch && (row.constituency.includes('विधानसभा 4') || row.constituency.includes('207'));
+    if (selectedConstituency === 'Rau') return matchesSearch && (row.constituency.includes('राऊ') || row.constituency.includes('210'));
+    if (selectedConstituency === 'Sanwer') return matchesSearch && (row.constituency.includes('सांवेर') || row.constituency.includes('211'));
+    if (selectedConstituency === 'Depalpur') return matchesSearch && (row.constituency.includes('देपालपुर') || row.constituency.includes('203'));
+    if (selectedConstituency === 'Mhow') return matchesSearch && (row.constituency.includes('महू') || row.constituency.includes('मऊ') || row.constituency.includes('209'));
+    if (selectedConstituency === 'Agar') return matchesSearch && (row.constituency.includes('आगर') || row.constituency.includes('166'));
     return matchesSearch;
   });
 

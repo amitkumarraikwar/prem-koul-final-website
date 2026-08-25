@@ -147,8 +147,13 @@ export default function HomePage() {
         <div className="container-width grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
           {/* Left Column: Text Content */}
           <div className="lg:col-span-7 space-y-6 text-left">
-            <div className="inline-flex items-center gap-2 rounded-full border border-brand-border bg-brand-card px-4 py-1 text-xs font-extrabold uppercase tracking-widest text-brand-saffron shadow-sm">
-              Indore Vidhan Sabha 5 · 2028
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="inline-flex items-center gap-2 rounded-full border border-brand-border bg-brand-card px-4 py-1 text-xs font-extrabold uppercase tracking-widest text-brand-saffron shadow-sm">
+                Indore Vidhan Sabha 5 · 2028
+              </span>
+              <span className="inline-flex items-center gap-1.5 rounded-full border border-brand-saffron/30 bg-brand-saffron/10 px-3.5 py-1 text-xs font-extrabold text-brand-saffron shadow-2xs">
+                🎯 Motive: Reach with People → Convert to Vote (Main Output)
+              </span>
             </div>
 
             <h1 className="font-hindi-alt text-4xl sm:text-5xl md:text-6xl font-black leading-tight text-brand-primary tracking-wide">
@@ -159,6 +164,17 @@ export default function HomePage() {
             <p className="text-base sm:text-lg leading-relaxed text-brand-primary/80 max-w-2xl font-medium">
               <span className="font-extrabold text-brand-saffron font-hindi-alt">प्रेम चंद कौल (Prem Chand Koul)</span> — IIM इंदौर में मीडिया एग्जीक्यूटिव, पूर्व NCERT प्रोड्यूसर, film निर्देशक और 9+ वर्षों के मीडिया एवं जनसेवा अनुभव के साथ, इंदौर-5 के लिए {"\"डोरस्टेप गवर्नेंस\""} का क्रांतिकारी विज़न।
             </p>
+
+            {/* Core Campaign Motive Banner */}
+            <div className="p-3.5 rounded-2xl bg-brand-card border border-brand-saffron/30 text-xs sm:text-sm font-semibold text-brand-primary/90 space-y-1">
+              <p className="text-xs uppercase font-mono font-extrabold text-brand-saffron tracking-wider flex items-center gap-1.5">
+                <GroupAddIcon className="w-4 h-4 text-brand-saffron" />
+                Campaign Core Motive / अभियान का मुख्य उद्देश्य:
+              </p>
+              <p className="font-bold text-slate-800 dark:text-slate-100">
+                {"\"Reach with People → Convert to Vote (Main Output)\""} — जन-जन तक सघन पहुँच और हर जनसंपर्क को निर्णायक जनादेश (Vote) में परिवर्तित करना।
+              </p>
+            </div>
 
             <div className="flex flex-wrap gap-4 pt-2">
               <Link href="/vision" className="btn-primary flex items-center gap-2">

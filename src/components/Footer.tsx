@@ -26,6 +26,9 @@ export function Footer() {
           <p className="text-sm leading-relaxed text-brand-primary/70">
             कार्यालय नहीं, अब सेवा आपके दरवाज़े तक। इंदौर-5 के नागरिकों के लिए 24/7 स्वास्थ्य, शिक्षा और प्रशासनिक सेवाओं की होम-डिलिवरी का क्रांतिकारी विज़न।
           </p>
+          <div className="text-[11px] font-semibold text-brand-saffron bg-brand-saffron/10 p-2.5 rounded-xl border border-brand-saffron/20">
+            <span className="font-bold">Core Motive:</span> Reach with People → Convert to vote, main output
+          </div>
           <div className="flex items-center space-x-3 pt-2">
             <a
               href="https://www.linkedin.com/in/premkoul20"
