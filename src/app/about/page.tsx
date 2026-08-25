@@ -113,7 +113,7 @@ export default function AboutPage() {
           <span className="text-xs font-mono font-bold tracking-widest text-brand-saffron uppercase">
             Biography & Experience / जीवन यात्रा
           </span>
-          <h1 className="font-hindi-alt text-4xl sm:text-5xl font-black">परिचय एवं कार्य अनुभव</h1>
+          <h1 className="font-hindi-alt text-4xl sm:text-5xl font-black text-brand-saffron">परिचय एवं कार्य अनुभव</h1>
           <p className="text-sm sm:text-base text-slate-400 max-w-2xl mx-auto font-medium">
             प्रेम चंद कौल (Prem Chand Koul) — 9+ वर्षों के मीडिया प्रबंधन, वृत्तचित्र निर्देशन व जनसेवा के अनुभव के साथ इंदौर-5 के लिए समर्पित।
           </p>
