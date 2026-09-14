@@ -123,7 +123,7 @@ export function Header() {
           {/* Quick Helpline (tel) */}
           <a
             href="tel:+919691110995"
-            className="flex items-center space-x-2 text-xs font-bold uppercase tracking-wider bg-brand-primary text-brand-bg px-4 py-2.5 rounded-lg hover:bg-brand-gold transition-colors"
+            className="btn-primary flex items-center space-x-2 text-xs uppercase tracking-wider px-4 py-2.5 !rounded-lg"
             title="Helpline"
           >
             <PhoneIcon className="w-4 h-4 text-brand-saffron" />
@@ -198,7 +198,7 @@ export function Header() {
           <div className="flex flex-col space-y-4 pt-6">
             <a
               href="tel:+919691110995"
-              className="flex items-center justify-center space-x-2 w-full bg-brand-primary text-brand-bg py-3.5 rounded-xl font-bold uppercase tracking-wider text-sm transition-colors hover:bg-brand-gold"
+              className="btn-primary flex items-center justify-center space-x-2 w-full uppercase tracking-wider text-sm py-3.5"
             >
               <PhoneIcon className="w-5 h-5 text-brand-saffron" />
               <span>Helpline / जनसुनवाई: +91 96911 10995</span>
