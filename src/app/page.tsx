@@ -347,7 +347,7 @@ export default function HomePage() {
                   ADR MyNeta-based benchmark comparison. Compare educational qualifications, criminal history, and service models to make an informed, value-based decision.
                 </p>
                 <div className="pt-2">
-                  <Link href="/compare" className="btn-primary bg-brand-primary text-brand-bg">
+                  <Link href="/compare" className="btn-primary flex items-center gap-2">
                     <span>तुलनात्मक डेटा टेबल देखें</span>
                     <ArrowForwardIcon className="w-4 h-4" />
                   </Link>
