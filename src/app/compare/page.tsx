@@ -337,6 +337,39 @@ const COMPARISON_ROWS: CandidateRow[] = [
     verified: true,
     experience: 'अल्पसंख्यक अधिकार व एमआईएम संगठन',
     serviceModel: 'क्षेत्रीय अल्पसंख्यक जनसंपर्क'
+  },
+  {
+    name: 'सुमित मिश्रा (Sumit Mishra)',
+    constituency: 'इंदौर (BJP नेता)',
+    party: 'भारतीय जनता पार्टी (BJP)',
+    education: 'डेटा उपलब्ध नहीं (MyNeta)',
+    cases: 'डेटा उपलब्ध नहीं',
+    casesStatus: 'clean',
+    verified: false,
+    experience: 'स्थानीय भाजपा नेतृत्व व जनसंपर्क',
+    serviceModel: 'संगठन व जनसंपर्क'
+  },
+  {
+    name: 'नानूराम कुमावत (Nanuram Kumawat)',
+    constituency: 'इंदौर (BJP नगर उपाध्यक्ष)',
+    party: 'भारतीय जनता पार्टी (BJP)',
+    education: 'B.Com (MyNeta पर उपलब्ध नहीं)',
+    cases: 'डेटा उपलब्ध नहीं',
+    casesStatus: 'clean',
+    verified: false,
+    experience: 'भाजपा नगर उपाध्यक्ष व आरएसएस पृष्ठभूमि',
+    serviceModel: 'संगठन व सामाजिक कार्य'
+  },
+  {
+    name: 'गौरव रणदिवे (Gourav Randive)',
+    constituency: 'इंदौर (BJP प्रदेश महामंत्री)',
+    party: 'भारतीय जनता पार्टी (BJP)',
+    education: 'डेटा उपलब्ध नहीं (MyNeta)',
+    cases: 'डेटा उपलब्ध नहीं',
+    casesStatus: 'clean',
+    verified: false,
+    experience: 'भाजपा प्रदेश महामंत्री व पूर्व नगर अध्यक्ष',
+    serviceModel: 'संगठन व पार्टी नेतृत्व'
   }
 ];
 
