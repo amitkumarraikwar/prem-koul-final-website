@@ -20,7 +20,7 @@ const SOCIALS = [
   },
   {
     name: 'Facebook',
-    url: 'https://www.facebook.com/premkoulfilm',
+    url: 'https://www.facebook.com/premkoul/',
     icon: <FacebookIcon className="w-5 h-5" />,
     color: '#1877f2',
   },

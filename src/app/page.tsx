@@ -196,7 +196,7 @@ export default function HomePage() {
               <div className="relative mx-auto max-w-sm rounded-3xl border border-brand-border bg-brand-card p-4 shadow-xl hover:shadow-2xl transition-all duration-300">
                 <div className="relative aspect-square w-full overflow-hidden rounded-2xl border border-brand-border bg-slate-100 dark:bg-slate-900">
                   <Image
-                    src="https://ui-avatars.com/api/?name=Prem+Chand+Koul&background=0f172a&color=f8fafc&size=400"
+                    src="/profile.jpg"
                     alt="Prem Chand Koul"
                     fill
                     sizes="(max-width: 640px) 100vw, 384px"
