@@ -87,7 +87,7 @@ const TEAM_MEMBERS: TeamMemberProps[] = [
     name: 'प्रेम चंद कौल (Prem Chand Koul)',
     role: 'Founder & Lead Campaigner / मुख्य संयोजक',
     bio: 'IIM इंदौर मीडिया एग्जीक्यूटिव, पूर्व NCERT मीडिया प्रोड्यूसर, फिल्म निर्देशक और इंदौर विधानसभा क्षेत्र 5 डोरस्टेप गवर्नेंस अभियान के मुख्य प्रणेता।',
-    photoUrl: '/profile.jpg',
+    photoUrl: '/profile.jpeg',
     isPlaceholder: false,
     socials: {
       linkedin: 'https://www.linkedin.com/in/premkoul20',
